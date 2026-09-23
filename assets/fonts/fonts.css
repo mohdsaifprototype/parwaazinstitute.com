@@ -1,0 +1,62 @@
+/* Coco sharp font for parwaaz */
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Bold-Italic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Extrabold-Italic.ttf);
+    font-weight: bolder;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp-Extrabold';
+    src: url(cocosharp/Coco-Sharp-Extrabold.ttf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'Coco-Sharp-Extralight';
+    src: url(cocosharp/Coco-Sharp-Extralight-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp-Extralight';
+    src: url(cocosharp/Coco-Sharp-Extralight.ttf);
+}
+@font-face {
+    font-family: 'Coco-Sharp-Heavy';
+    src: url(cocosharp/Coco-Sharp-Heavy-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp-Heavy';
+    src: url(cocosharp/Coco-Sharp-Heavy.ttf);
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Light-Italic.ttf);
+    font-weight: lighter;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Light.ttf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Coco-Sharp';
+    src: url(cocosharp/Coco-Sharp-Regular.ttf);
+    font-weight: normal;
+}
