@@ -12,6 +12,40 @@
 	--font-body: "Manrope", sans-serif;
 }
 
+/* Fixed links start */
+.fixed-links {
+	width: max-content;
+	max-width: 4rem;
+	list-style: none;
+	border: 1px solid rgba(105, 90, 205, 0.438);
+	border-radius: 3px;
+	padding: 0.1rem;
+	background-color: rgba(255, 255, 255, 0.579);
+	margin: 0 !important;
+}
+
+.fixed-link {
+	margin: 4px 2px;
+	padding: 0px 2px;
+	transition: all 0.3s ease-in-out;
+}
+
+.fixed-link:hover {
+	transform-origin: left center;
+	transform: scale(1.25);
+}
+
+.social-links {
+	z-index: 4;
+}
+
+.toggle-links {
+	background-color: rgba(43, 226, 226, 0.241);
+	transition: all 0.5s ease-in-out;
+}
+
+/* Fixed links end */
+
 body {
 	font-family: var(--font-body);
 	color: var(--text-dark);
@@ -138,7 +172,7 @@ h6 {
 
 .navbar-brand .nav-logo {
 	width: auto;
-	height: 72px;
+	height: clamp(3rem, 2.5vw + 0.5rem, 5rem);
 	object-fit: contain;
 	display: block;
 }
@@ -592,8 +626,8 @@ footer {
 	opacity: 0;
 	transform: translateY(30px);
 	transition:
-		opacity 0.8s ease,
-		transform 0.8s ease;
+		opacity 0.4s ease,
+		transform 0.4s ease;
 }
 
 .fade-up.visible {
